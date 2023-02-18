@@ -1,8 +1,10 @@
 //lista com as tarefas;
 List<Task> tasksList = [
   //instanciação das terefas.
-  Task(name: 'Invadir o congresso', checkboxvalue: false),
-  Task(name: 'Sonegar imposto', checkboxvalue: false),
+  Task(name: 'estudar programação', checkboxvalue: false),
+  Task(name: 'ir à academia', checkboxvalue: false),
+  Task(name: 'tomar água', checkboxvalue: false),
+  Task(name: 'correr', checkboxvalue: false),
 ];
 //lista das tarefas que serão selecionadas na HomePage
 List<Task> selectedTask = [];
